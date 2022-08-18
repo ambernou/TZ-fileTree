@@ -6,41 +6,48 @@ const store = createStore({
             {
                 id: 1,
                 name: 'Dir 1',
+                type: 'dir',
                 children: [
                     {
                         id: 2,
                         name: 'Dir 1-1',
+                        type: 'dir',
                         children: [
                             {
                                 id: 3,
-                                name: 'File 1-1-1'
+                                name: 'File 1-1-1',
+                                type: 'file'
                             }
                         ]
                     },
                     {
                         id: 4,
                         name: 'File 1-2',
-                        
+                        type: 'file'
                     }
                 ]
             }, 
             {
                 id: 5,
                 name: 'Dir 2',
+                type: 'dir',
                 children: [
                     {
                         id: 6,
-                        name: 'Dir 2-1'
+                        name: 'Dir 2-1',
+                        type: 'dir'
                     },
                     {
                         id: 7,
-                        name: 'File 2-2'
+                        name: 'File 2-2',
+                        type: 'file'
                     }
                 ]
             },
             {
                 id: 8,
-                name: 'File 2'
+                name: 'File 2',
+                type: 'file'
             }
         ]
     },

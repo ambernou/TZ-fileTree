@@ -20,6 +20,7 @@ export default {
         :children="el.children"
         :depth="0"
         :id="el.id"
+        :type="el.type"
         >
       </FileTree>
     </div>
